@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "requestDomains": [
+        "youtube.com/shorts",
+        "m.youtube.com",
+        "googlevideo.com",
+        "ggpht.com",
+        "googleusercontent.com"
+      ],
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "script",
+        "image",
+        "stylesheet",
+        "media",
+        "xmlhttprequest",
+        "websocket",
+        "other"
+      ]
+    }
+  }
+]
